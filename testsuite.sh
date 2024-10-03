@@ -73,7 +73,7 @@ testcase() {
 
     OUTPUT=$(
         sqlite3 2>&1 << EOF
-.load bin/inet
+.load ./bin/inet
 $CODE
 EOF
     )
