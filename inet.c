@@ -12,7 +12,7 @@
 **
 ** This SQLite extension implements inet_aton() and inet_ntoa() functions.
 */
-#include <sqlite3ext.h>
+#include "sqlite3ext.h"
 SQLITE_EXTENSION_INIT1
 
 #ifdef _WIN32
